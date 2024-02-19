@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: black;
+    background-repeat: no-repeat;
+}
+.container {
+    
+    height: 50vh;
+    display: grid;
+    justify-content: center;
+    align-items: end;
+}
+.mycv {
+    
+}
+.mycv h1 {
+    color: white;
+}
+.container__button {
+    margin: 15px 0 0 0;
+    /* width: 107px; */
+    padding: 15px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    box-shadow: -6px 11px 5px 5px #999999;
+}
+.container__button:hover {
+    background-color: white;
+    color: black;
+}
